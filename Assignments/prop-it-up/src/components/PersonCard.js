@@ -1,7 +1,7 @@
 import React, { useState } from react
 
 const PersonCard = (props) => {
-    cibst [ initialAge, setInitialAge ] = useState(props.initialAge);
+    const [ initialAge, setInitialAge ] = useState(props.initialAge);
     return (
         <div>
             <h1>{props.lastName}, {props.firstName}</h1>
