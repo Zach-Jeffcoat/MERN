@@ -7,7 +7,7 @@ const port = 8000;
 
 const createUser = (res) => {
     const newUser = {
-        firstName: faker.commerce.firstName(),
+        firstName: faker.firstName(),
         lastName: faker.commerce.lastName(),
         phoneNumber: faker.commerce.phoneNumber(),
         email: faker.commerce.email(),
